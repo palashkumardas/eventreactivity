@@ -1,12 +1,13 @@
 <script setup>
 // import location from './components/Location.vue'
 // import objectReactivity from './components/objectReactivity.vue'
-import according from './components/according.vue'
+// import according from './components/according.vue'
+import accordion2 from './components/accordion2.vue'
 
 </script>
 
 <template>
-  <according></according>
+  <accordion2></accordion2>
 </template>
 
 <style scoped>
