@@ -4,12 +4,13 @@
 // import according from './components/according.vue'
 // import accordion2 from './components/accordion2.vue'
 // import loopaccording from './components/loopaccording.vue'
-import carousel from './components/carousel.vue'
+// import carousel from './components/carousel.vue'
+import modifier from './components/modifier.vue';
 
 </script>
 
 <template>
-  <carousel></carousel>
+  <modifier></modifier>
 </template>
 
 <style scoped>
