@@ -1,9 +1,11 @@
 <script setup>
-import location from './components/Location.vue'
+// import location from './components/Location.vue'
+import objectReactivity from './components/objectReactivity.vue'
+
 </script>
 
 <template>
-  <location></location>
+  <objectReactivity></objectReactivity>
 </template>
 
 <style scoped>
