@@ -17,6 +17,12 @@ function clickButton(){
 function ctrlRightClick(){
     message.value = "Ctrl+Right Click"
 }
+function divClick(){
+    message.value ="Div click"
+}
+function buttonClick(){
+    message.value ="Button click"
+}
 </script>
 
 <template>
@@ -29,7 +35,8 @@ function ctrlRightClick(){
             <button @click.prevent="clickButton()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> Button </button>
             <button @click.ctrl="ctrlRightClick()" class="bg-blue-500 ml-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> Ctrol + Right Click </button>
         </form>
-        <div class="bg-gray-200 w-[500px] h-80 mt-5 flex items-center justify-center"><button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"> Button </button></div>
+        <div @click="divClick()" class="bg-gray-200 w-[500px] h-80 mt-5 flex items-center justify-center">
+            <button @click.stop="buttonClick()" class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"> Button </button></div>
     </section>
 </template>
 
